@@ -10,7 +10,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
         className="relative overflow-hidden bg-white rounded-md wow fadeInUp shadow-one dark:bg-dark"
         data-wow-delay=".1s"
       >
-        <Link href="/contact" className="relative block h-[220px] w-full">
+        <Link href={blog.paragraph} className="relative block h-[220px] w-full">
           {/* <span className="absolute z-20 inline-flex items-center justify-center px-4 py-2 text-sm font-semibold text-white capitalize rounded-full top-6 right-6 bg-primary">
             {tags[0]}
           </span> */}
@@ -19,7 +19,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
         <div className="p-6 sm:p-8 md:py-8 md:px-6 lg:p-8 xl:py-8 xl:px-5 2xl:p-8">
           <h3>
             <Link
-              href="/contact"
+              href="/error"
               className="block mb-4 text-xl font-bold text-black hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl"
             >
               {title}

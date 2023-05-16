@@ -12,11 +12,11 @@ const Contact = () => {
               "
             >
               <h2 className="mb-3 text-2xl font-bold text-right text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-                ?צריך עזרה
+                דיווח להורה
               </h2>
-              <p className="mb-12 text-base font-medium text-right text-body-color">
+              {/* <p className="mb-12 text-base font-medium text-right text-body-color">
                 פנה אלינו והמערכת תעזור לך תוך 24 שעות
-              </p>
+              </p> */}
               <form>
                 <div className="flex flex-wrap -mx-4">
                   <div className="w-full px-4 md:w-1/2">

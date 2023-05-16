@@ -5,7 +5,7 @@ const childData: Blog[] = [
     id: 1,
     title: "שאלונים",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "/about",
     image: "/images/graph.jpeg",
     author: {
       name: "Samuyl Joshi",
@@ -19,7 +19,7 @@ const childData: Blog[] = [
     id: 2,
     title: "משחקים",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "/blog-sidebar",
     image: "/images/tools.jpeg",
     author: {
       name: "Musharof Chy",

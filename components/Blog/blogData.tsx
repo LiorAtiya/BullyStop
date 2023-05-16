@@ -5,7 +5,7 @@ const blogData: Blog[] = [
     id: 1,
     title: "מעקב כיתה",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "/error",
     image: "/images/graph.jpeg",
     author: {
       name: "Samuyl Joshi",
@@ -19,7 +19,7 @@ const blogData: Blog[] = [
     id: 2,
     title: "כלים",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "/blog-details",
     image: "/images/tools.jpeg",
     author: {
       name: "Musharof Chy",
@@ -33,7 +33,7 @@ const blogData: Blog[] = [
     id: 3,
     title: "דיווח",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "/contact",
     image: "/images/blog/blog-03.jpg",
     author: {
       name: "Lethium Deo",
