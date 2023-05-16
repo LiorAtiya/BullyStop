@@ -53,7 +53,7 @@ const Header = () => {
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                <h1><b>BullyStop</b></h1>
+                <h1><b>Together</b></h1>
                 {/* <Image
                   src="/images/logo/logo-2.svg"
                   alt="logo"
@@ -155,13 +155,13 @@ const Header = () => {
                   href="/signin"
                   className="hidden py-3 text-base font-bold px-7 text-dark hover:opacity-70 dark:text-white md:block"
                 >
-                  הרשמה
+                  התחברות
                 </Link>
                 <Link
                   href="/signup"
                   className="hidden px-8 py-3 text-base font-bold text-white transition duration-300 rounded-md ease-in-up bg-primary hover:bg-opacity-90 hover:shadow-signUp md:block md:px-9 lg:px-6 xl:px-9"
                 >
-                  התחברות
+                  הרשמה
                 </Link>
                 <div>
                   <ThemeToggler />

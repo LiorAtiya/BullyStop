@@ -5,15 +5,15 @@ const SigninPage = () => {
     <>
       <section className="relative z-10 overflow-hidden pt-36 pb-16 md:pb-20 lg:pt-[180px] lg:pb-28">
         <div className="container">
-          <div className="-mx-4 flex flex-wrap">
+          <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[500px] rounded-md bg-primary bg-opacity-5 py-10 px-6 dark:bg-dark sm:p-[60px]">
-                <h3 className="mb-3 text-center text-2xl font-bold text-black dark:text-white sm:text-3xl">
-                  Sign in to your account
+                <h3 className="mb-3 text-2xl font-bold text-center text-black dark:text-white sm:text-3xl">
+                  התחברות
                 </h3>
-                <p className="mb-11 text-center text-base font-medium text-body-color">
-                  Login to your account for a faster checkout.
-                </p>
+                {/* <p className="text-base font-medium text-center mb-11 text-body-color">
+                  התחברות מהירה
+                </p> */}
                 <button className="mb-6 flex w-full items-center justify-center rounded-md bg-white p-3 text-base font-medium text-body-color shadow-one hover:text-primary dark:bg-[#242B51] dark:text-body-color dark:shadow-signUp dark:hover:text-white">
                   <span className="mr-3">
                     <svg
@@ -48,49 +48,49 @@ const SigninPage = () => {
                       </defs>
                     </svg>
                   </span>
-                  Sign in with Google
+                  התחברות עם גוגל
                 </button>
-                <div className="mb-8 flex items-center justify-center">
+                <div className="flex items-center justify-center mb-8">
                   <span className="hidden h-[1px] w-full max-w-[70px] bg-body-color sm:block"></span>
-                  <p className="w-full px-5 text-center text-base font-medium text-body-color">
-                    Or, sign in with your email
+                  <p className="w-full px-5 text-base font-medium text-center text-body-color">
+                    התחברות עם אימייל וסיסמא
                   </p>
                   <span className="hidden h-[1px] w-full max-w-[70px] bg-body-color sm:block"></span>
                 </div>
                 <form>
-                  <div className="mb-8">
+                  <div className="mb-8 text-right">
                     <label
                       htmlFor="email"
-                      className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                      className="block mb-3 text-sm font-medium text-dark dark:text-white"
                     >
-                      Your Email
+                      אימייל
                     </label>
                     <input
                       type="email"
                       name="email"
-                      placeholder="Enter your Email"
-                      className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
+                      placeholder="הכנס את האימייל שלך"
+                      className="text-right w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                     />
                   </div>
-                  <div className="mb-8">
+                  <div className="mb-8 text-right">
                     <label
                       htmlFor="password"
-                      className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                      className="block mb-3 text-sm font-medium text-right text-dark dark:text-white"
                     >
-                      Your Password
+                      סיסמא
                     </label>
                     <input
                       type="password"
                       name="password"
-                      placeholder="Enter your Password"
-                      className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
+                      placeholder="הכנס את הסיסמא"
+                      className="w-full text-right rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                     />
                   </div>
-                  <div className="mb-8 flex flex-col justify-between sm:flex-row sm:items-center">
+                  <div className="flex flex-col justify-between mb-8 sm:flex-row sm:items-center">
                     <div className="mb-4 sm:mb-0">
                       <label
                         htmlFor="checkboxLabel"
-                        className="flex cursor-pointer select-none items-center text-sm font-medium text-body-color"
+                        className="flex items-center text-sm font-medium cursor-pointer select-none text-body-color"
                       >
                         <div className="relative">
                           <input
@@ -98,7 +98,7 @@ const SigninPage = () => {
                             id="checkboxLabel"
                             className="sr-only"
                           />
-                          <div className="box mr-4 flex h-5 w-5 items-center justify-center rounded border border-body-color border-opacity-20 dark:border-white dark:border-opacity-10">
+                          <div className="flex items-center justify-center w-5 h-5 mr-4 border rounded box border-body-color border-opacity-20 dark:border-white dark:border-opacity-10">
                             <span className="opacity-0">
                               <svg
                                 width="11"
@@ -117,7 +117,7 @@ const SigninPage = () => {
                             </span>
                           </div>
                         </div>
-                        Keep me signed in
+                        הישאר מחובר
                       </label>
                     </div>
                     <div>
@@ -125,21 +125,23 @@ const SigninPage = () => {
                         href="#0"
                         className="text-sm font-medium text-primary hover:underline"
                       >
-                        Forgot Password?
+                        ?שכחת סיסמא
                       </a>
                     </div>
                   </div>
                   <div className="mb-6">
-                    <button className="flex w-full items-center justify-center rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
-                      Sign in
+                    <button className="flex items-center justify-center w-full py-4 text-base font-medium text-white transition duration-300 ease-in-out rounded-md bg-primary px-9 hover:bg-opacity-80 hover:shadow-signUp">
+                      אישור
                     </button>
                   </div>
                 </form>
-                <p className="text-center text-base font-medium text-body-color">
-                  Don’t you have an account?
+                <p className="text-base font-medium text-center text-body-color">
+                ?משתמש חדש
+                  <br></br>
                   <Link href="/signup" className="text-primary hover:underline">
-                    Sign up
+                  הרשמה
                   </Link>
+
                 </p>
               </div>
             </div>

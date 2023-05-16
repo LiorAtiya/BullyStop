@@ -1,9 +1,9 @@
 import { Blog } from "@/types/blog";
 
-const blogData: Blog[] = [
+const childData: Blog[] = [
   {
     id: 1,
-    title: "מעקב כיתה",
+    title: "שאלונים",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
     image: "/images/graph.jpeg",
@@ -17,7 +17,7 @@ const blogData: Blog[] = [
   },
   {
     id: 2,
-    title: "כלים",
+    title: "משחקים",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
     image: "/images/tools.jpeg",
@@ -29,19 +29,5 @@ const blogData: Blog[] = [
     tags: ["computer"],
     publishDate: "2025",
   },
-  {
-    id: 3,
-    title: "דיווח",
-    paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
-    author: {
-      name: "Lethium Deo",
-      image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
-    },
-    tags: ["design"],
-    publishDate: "2025",
-  },
 ];
-export default blogData;
+export default childData;

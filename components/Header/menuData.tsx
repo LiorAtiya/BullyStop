@@ -4,18 +4,18 @@ const menuData: Menu[] = [
   {
     id: 1,
     title: "הורה",
-    path: "/",
+    path: "/parent",
     newTab: false,
   },
   {
     id: 2,
-    title: "הילד הפוגע",
-    path: "/about",
+    title: "תלמיד",
+    path: "/child",
     newTab: false,
   },
   {
     id: 33,
-    title: "הילד הנפגע",
+    title: "מורה",
     path: "/blog",
     newTab: false,
   },

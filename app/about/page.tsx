@@ -5,12 +5,17 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 const AboutPage = () => {
   return (
     <>
-      <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
-      />
-      <AboutSectionOne />
-      <AboutSectionTwo />
+      <div className="text-right">
+        <Breadcrumb
+          pageName="תלמיד"
+          description="מידע לתלמיד"
+        />
+        <div className="flex items-center justify-center">
+          <img src="/images/children.jpeg" alt="children" />
+        </div>
+
+        <AboutSectionOne />
+      </div>
     </>
   );
 };

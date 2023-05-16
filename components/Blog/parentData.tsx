@@ -1,15 +1,15 @@
 import { Blog } from "@/types/blog";
 
-const blogData: Blog[] = [
+const parentData: Blog[] = [
   {
     id: 1,
-    title: "מעקב כיתה",
+    title: "מעקב תלמיד",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
     image: "/images/graph.jpeg",
     author: {
       name: "Samuyl Joshi",
-      image: "/images/blog/author-01.png",
+      image: "/images/graph.jpeg",
       designation: "Graphic Designer",
     },
     tags: ["creative"],
@@ -23,7 +23,7 @@ const blogData: Blog[] = [
     image: "/images/tools.jpeg",
     author: {
       name: "Musharof Chy",
-      image: "/images/blog/author-02.png",
+      image: "/images/tools.jpeg",
       designation: "Content Writer",
     },
     tags: ["computer"],
@@ -31,17 +31,17 @@ const blogData: Blog[] = [
   },
   {
     id: 3,
-    title: "דיווח",
+    title: "חומר קריאה",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+    image: "/images/read.jpeg",
     author: {
       name: "Lethium Deo",
-      image: "/images/blog/author-03.png",
+      image: "/images/read.jpeg",
       designation: "Graphic Designer",
     },
     tags: ["design"],
     publishDate: "2025",
   },
 ];
-export default blogData;
+export default parentData;

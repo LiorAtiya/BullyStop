@@ -1,21 +1,21 @@
 import SingleBlog from "@/components/Blog/SingleBlog";
-import blogData from "@/components/Blog/blogData";
+import parentData from "@/components/Blog/parentData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
-const Blog = () => {
+const Parent = () => {
   return (
     <>
       <div className="text-right">
         <Breadcrumb
-          pageName="מורה"
-          description="תיאור למורה"
+          pageName="הורה"
+          description="תיאור להורה"
         />
       </div>
 
       <section className="pt-[120px] pb-[120px]">
         <div className="container">
           <div className="flex flex-wrap justify-center -mx-4">
-            {blogData.map((blog) => (
+            {parentData.map((blog) => (
               <div
                 key={blog.id}
                 className="w-full px-4 -mt-10 text-right md:w-2/3 lg:w-1/2 xl:w-1/3"
@@ -29,8 +29,8 @@ const Blog = () => {
             className="flex flex-wrap -mx-4 wow fadeInUp"
             data-wow-delay=".15s"
           >
-            {/* <div className="w-full px-4">
-              <ul className="flex items-center justify-center pt-8"> */}
+            <div className="w-full px-4">
+              <ul className="flex items-center justify-center pt-8">
                 {/* <li className="mx-1">
                   <a
                     href="#0"
@@ -84,8 +84,8 @@ const Blog = () => {
                     Next
                   </a>
                 </li> */}
-              {/* </ul>
-            </div> */}
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -93,4 +93,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Parent;
